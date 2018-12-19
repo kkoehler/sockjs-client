@@ -28,6 +28,7 @@
     "debug": "^3.2.5",
     "eventsource": "^1.0.7",
     "faye-websocket": "~0.11.1",
+    "gulp-cli": "^2.0.1",
     "inherits": "^2.0.3",
     "json3": "^3.3.2",
     "url-parse": "^1.4.3"
@@ -73,6 +74,7 @@
     "test:browser_local": "npm run test:bundle && npx karma start --browsers Chrome",
     "test:browser_remote": "npm run test:bundle && npx karma start",
     "gulp": "gulp",
+    "gulp:release": "gulp release",
     "lint": "eslint .",
     "version": "gulp release && git add -A dist lib/version.js",
     "postversion": "npm publish",
